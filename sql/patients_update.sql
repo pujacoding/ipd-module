@@ -1,0 +1,3 @@
+ALTER TABLE patients
+ADD COLUMN alternate_phone VARCHAR(20) NULL,
+ADD COLUMN address TEXT NULL;
